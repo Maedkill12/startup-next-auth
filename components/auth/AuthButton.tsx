@@ -15,7 +15,6 @@ export const AuthButton = () => {
       onClick={async () => {
         await signOut();
         router.push("/sign-in");
-        // await signIn();
       }}
     >
       Cerrar sesión
